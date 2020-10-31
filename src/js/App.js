@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "../css/app.css";
 
 function App() {
+  console.log(process.env)
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>FeedbackMe App</p>
         <p>Coming Soon ...</p>
       </header>
